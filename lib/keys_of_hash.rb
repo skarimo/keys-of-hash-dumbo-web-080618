@@ -1,9 +1,8 @@
 require 'pry'
 class Hash
-  def keys_of(hash, array)
+  def keys_of(*array)
     arr = []
     
-  binding.pry
     arr
   end
 end
