@@ -1,12 +1,14 @@
 require 'pry'
 class Hash
   def keys_of(*array)
-    arr = []
+    r_arr = []
      array.each do |arr|
        self.each do |k, v|
-         binding.pry
+         if v == arr
+           r_arr << k
        end
            
   end
 end
+r_arr
 end
