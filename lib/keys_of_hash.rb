@@ -4,7 +4,8 @@ class Hash
     arr = []
      array.each do |arr|
        self.each do |k, v|
-         if v == arr
+         binding.pry
+       end
            
   end
 end
