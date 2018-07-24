@@ -9,6 +9,6 @@ class Hash
        end
       end    
   end
+  r_arr
 end
-r_arr
 end
