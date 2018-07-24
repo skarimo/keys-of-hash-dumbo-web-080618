@@ -4,7 +4,7 @@ class Hash
     arr = []
      array.each do |arr|
        self.each do |k, v|
-         if k == arr
+         if v == arr
            
   end
 end
