@@ -2,7 +2,7 @@ require 'pry'
 class Hash
   def keys_of(*array)
     arr = []
-     array.each do |k, v|
-    
+     array.each do |arr|
+    binding.pry
   end
 end
