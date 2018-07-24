@@ -7,7 +7,7 @@ class Hash
          if v == arr
            r_arr << k
        end
-           
+      end    
   end
 end
 r_arr
